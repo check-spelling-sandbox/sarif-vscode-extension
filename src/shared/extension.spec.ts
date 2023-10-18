@@ -84,7 +84,7 @@ describe('Extension', () => {
         it('returns the hierarchical directory from the file path', () => {
             assert.strictEqual('/C:/Users/user.cs'.path, 'C:/Users');
         });
-        it('does not fail when when no hierarchical directory is in the input', () => {
+        it('does not fail when no hierarchical directory is in the input', () => {
             assert.doesNotThrow(() => 'user.cs'.path);
         });
         it('does not fail when input is empty', () => {
