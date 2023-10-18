@@ -8,7 +8,7 @@ For future releases, see the [Release Page](https://github.com/microsoft/sarif-v
 * Render "Property Bags" in result details [issue #407](https://github.com/Microsoft/sarif-vscode-extension/issues/407)
 * Mitigate selection sync feedback loop [issue #408](https://github.com/Microsoft/sarif-vscode-extension/issues/408)
 * Limit `findFiles` against very large workspaces [issue #409](https://github.com/Microsoft/sarif-vscode-extension/issues/409)
-* Addess multiple NPM security advisories
+* Address multiple NPM security advisories
 
 ## 3.0.2
 
