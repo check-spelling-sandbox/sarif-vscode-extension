@@ -24,7 +24,7 @@ interface TableProps<T, G> {
             // Variable number of columns set to user-desired width.
             // First column has an extra 22px allowance for the `level` icon.
             ...columns.map((col, i) => `${(i === 0 ? 22 : 0) + col.width.get()}px`),
-            '1fr', // Fill remaining space so the the selection/hover highlight doesn't look funny.
+            '1fr', // Fill remaining space so the selection/hover highlight doesn't look funny.
         ].join(' ');
     }
 
