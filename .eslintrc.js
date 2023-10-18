@@ -33,12 +33,12 @@ module.exports = {
                 }],
 
                 // Exceptions with Justifications.
-                "no-undef": OFF, // Requires too many exception account for Mocha, Node.js and browser globals. Typescript also already checks for this.
+                "no-undef": OFF, // Requires too many exception account for Mocha, Node.js and browser globals. TypeScript also already checks for this.
                 "@typescript-eslint/explicit-module-boundary-types": OFF, // Requires types on methods such as render() which can already be inferred.
                 "@typescript-eslint/no-empty-function": OFF, // Too useful for mocks. Perhaps TODO enable for only non-test files.
                 "@typescript-eslint/no-non-null-assertion": OFF, // Rule does not account for when the value has already been null-checked.
                 "@typescript-eslint/no-unused-vars": OFF, // Not working with TSX.
-                "@typescript-eslint/no-var-requires": OFF, // Making importing proxyquire too verbose since that library is not super Typescript friendly.
+                "@typescript-eslint/no-var-requires": OFF, // Making importing proxyquire too verbose since that library is not super TypeScript friendly.
                 "@typescript-eslint/triple-slash-reference": OFF, // Disallows <reference path="../panel/global.d.ts" /> and there's no workaround.
             },
         }

@@ -9,7 +9,7 @@ This extension conforms to patterns common to all Visual Studio Code extensions.
 
 ### Prerequisites
 Proficiency of the following topics is required:
-* Typescript (https://www.typescriptlang.org/)
+* TypeScript (https://www.typescriptlang.org/)
 * ReactJS (https://reactjs.org/)
 * Visual Studio Code Extensions (https://code.visualstudio.com/api)
 

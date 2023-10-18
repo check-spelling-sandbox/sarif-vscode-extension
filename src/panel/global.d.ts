@@ -6,7 +6,7 @@
 export {};
 
 declare global {
-    // Disagree with Typescript built-in typing `indexOf()`. It does not allow `searchElement` undefined.
+    // Disagree with TypeScript built-in typing `indexOf()`. It does not allow `searchElement` undefined.
     interface Array<T> {
         indexOf(searchElement: T | undefined, fromIndex?: number | undefined): number;
     }
