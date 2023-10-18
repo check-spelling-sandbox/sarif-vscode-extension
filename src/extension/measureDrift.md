@@ -23,7 +23,7 @@
   * The left-side offset and right-side offset.
   * Optimized: Left-side offset and delta.
     * Left-side delta is used for "indexing"
-	* Delta is used for shifing.
+	* Delta is used for shifting.
 * Cases...
   * Result falls wholly within a block
     * Block is unchanged: shift the result.
