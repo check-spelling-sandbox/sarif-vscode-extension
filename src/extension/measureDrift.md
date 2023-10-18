@@ -30,5 +30,5 @@
 	* Block is changed: result is invalid, move to the top (or remove it).
   * Result spans two or more blocks
     * If the start/end fall within unchanged blocks, it might still be valid and shiftable.
-	* All other cases, probably safer to invalidate ther result.
+	* All other cases, probably safer to invalidate their result.
   
